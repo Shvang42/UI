@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ADSServerStatus</class>
+ <widget class="QMainWindow" name="ADSServerStatus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ADSServerStatus</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>803</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="A1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>69</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS - 2A1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B1first">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>68</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS - 2B1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B1second">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>40</y>
+      <width>67</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS - 1B1</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="SecondTable">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>111</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>System Control</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Track</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>CND Track</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>SPY Track</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Hardcopy</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QTableWidget" name="FirstTable">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>101</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Submode</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Alert</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Air Control</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sile Synch</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Doctrine</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Alert Doctrine</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QTableWidget" name="ThirdTable">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>60</y>
+      <width>121</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Status Data</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Training</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Decision Aids</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Frc Wpn Doctrine</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sys Rec Control</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>AScope</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QLabel" name="A2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>70</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS - 2A2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B2first">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>280</y>
+      <width>70</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS - 2B2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B2second">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>280</y>
+      <width>68</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS - 1B2</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="FourthTable">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>111</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>System Control</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Track</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>CND Track</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>SPY Track</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Hardcopy</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QTableWidget" name="FifthTable">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>300</y>
+      <width>101</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Submode</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Alert</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Air Control</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sile Synch</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Doctrine</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Alert Doctrine</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QTableWidget" name="SixthTable">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>300</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Status Data</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Training</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Decision Aids</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Frc Wpn Doctrine</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sys Rec Control</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>AScope</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="QGraphicsView" name="GreenActive">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Active">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>520</y>
+      <width>56</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>= Active</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Standby">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>520</y>
+      <width>70</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>= Standby</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Down">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>520</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>= Down</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="GreenStandby">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>510</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="RedDown">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>510</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ConsoleStatus">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>560</y>
+      <width>121</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Console Status</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Close">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>590</y>
+      <width>88</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ADStitle">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>7</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADS Server Status</string>
+    </property>
+   </widget>
+   <zorder>A1</zorder>
+   <zorder>B1first</zorder>
+   <zorder>B1second</zorder>
+   <zorder>FirstTable</zorder>
+   <zorder>SecondTable</zorder>
+   <zorder>ThirdTable</zorder>
+   <zorder>A2</zorder>
+   <zorder>B2first</zorder>
+   <zorder>B2second</zorder>
+   <zorder>FourthTable</zorder>
+   <zorder>FifthTable</zorder>
+   <zorder>SixthTable</zorder>
+   <zorder>GreenActive</zorder>
+   <zorder>Active</zorder>
+   <zorder>Standby</zorder>
+   <zorder>Down</zorder>
+   <zorder>GreenStandby</zorder>
+   <zorder>RedDown</zorder>
+   <zorder>ConsoleStatus</zorder>
+   <zorder>Close</zorder>
+   <zorder>ADStitle</zorder>
+   <zorder>gridLayoutWidget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>474</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
